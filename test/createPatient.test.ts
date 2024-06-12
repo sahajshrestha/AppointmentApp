@@ -2,7 +2,7 @@ import { createaPatient } from "../data/patients";
 
 
 // Mocking: Different from stubbing. 
-// Stubbing: Whenever you call the function, you have this data as output. We are stubbing as part of this test
+// Stubbing: Whenever you call the function, you have this data as output. We are stubbing as part of this test.
 
 test('should create new Patient', async() => {
     const patient = {
